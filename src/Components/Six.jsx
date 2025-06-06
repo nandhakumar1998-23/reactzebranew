@@ -1,7 +1,6 @@
 import React from "react";
 import "../assets/css/Six.css";
-import Volvo from '../assets/images/volvo.png';
-import TVS from '../assets/images/TVS1.png';
+import Volvo from '../assets/images/volvo.png'import TVS from '../assets/images/TVS1.png';
 import CNC from '../assets/images/CMC.png';
 import FB from '../assets/images/FB1.png';
 import TG from '../assets/images/T__G1.png';
@@ -17,20 +16,19 @@ const Six = () => {
         {/* Client Logo Carousel */}
         <div className="acp-carousel-wrapper">
           <div className="acp-carousel-track">
-            <img src={Volvo} alt="Client 1" />
             <img src={TVS} alt="Client 2" />
             <img src={CNC} alt="Client 3" />
             <img src={FB} alt="Client 4" />
             <img src={TG} alt="Client 5" />
 
             {/* Repeat for smooth loop */}
-            <img src={Volvo} alt="Client 1" />
+
             <img src={TVS} alt="Client 2" />
             <img src={CNC} alt="Client 3" />
             <img src={FB} alt="Client 4" />
             <img src={TG} alt="Client 5" />
 
-            <img src={Volvo} alt="Client 1" />
+            
             <img src={TVS} alt="Client 2" />
             <img src={CNC} alt="Client 3" />
             <img src={FB} alt="Client 4" />
