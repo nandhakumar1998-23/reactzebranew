@@ -5,7 +5,7 @@ import '../assets/css/Nav.css';
 import '../assets/css/About.css';
 import Logo from '../assets/images/zebra-elevation1.png';
 import { Link } from 'react-router-dom';
-import AboutImage from '../assets/images/About.jpg';
+import AboutImage from 'src/Components/About.jsx';
 import  Aboutsecc  from '../Components/Aboutsec'; 
 
 function About() {
