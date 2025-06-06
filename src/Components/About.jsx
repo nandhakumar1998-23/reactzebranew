@@ -5,9 +5,8 @@ import '../assets/css/Nav.css';
 import '../assets/css/About.css';
 import Logo from '../assets/images/zebra-elevation1.png';
 import { Link } from 'react-router-dom';
-import Aboutpic from '../assets/images/About.jpg'
-import  Aboutsecc  from '../Components/Aboutsec'; // ✅ Correct for named export
-
+import AboutImage from '../assets/images/About.jpg';
+import  Aboutsecc  from '../Components/Aboutsec'; 
 
 function About() {
   const [showHeader, setShowHeader] = useState(true);
@@ -80,7 +79,7 @@ function About() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={Aboutpic}
+              src={AboutImage}
               alt="Slide 1"
             />
           </Carousel.Item>
