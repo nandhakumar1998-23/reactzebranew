@@ -1,0 +1,108 @@
+/*-----------------------------------*\
+ * #ACPC CTA Section & Carousel Styles
+\*-----------------------------------*/
+
+.acp-cta-section {
+  padding-block: 0 var(--section-padding); /* Removed padding-top */
+  margin-top: 0; /* Already set, confirmed */
+}
+
+.acp-cta-subtitle,
+.acp-cta-title,
+.acp-cta-description {
+  color: #000;
+}
+
+.acp-cta-description {
+  font-size: var(--fs-5);
+}
+
+.acp-cta-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.acp-cta-button {
+  margin-top: 1rem;
+  padding: 10px 30px;
+  font-size: 1rem;
+  background-color: #000000;
+  color: #b50318;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Logo Carousel */
+.acp-carousel-wrapper {
+  overflow: hidden;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.acp-carousel-track {
+  display: flex;
+  gap: 140px;
+  animation: slideLogos 20s linear infinite;
+}
+
+.acp-carousel-track img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+@keyframes slideLogos {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/*-----------------------------------*\
+ * #RESPONSIVE MEDIA QUERIES
+\*-----------------------------------*/
+
+@media (max-width: 1024px) {
+  .acp-carousel-track {
+    gap: 100px;
+  }
+
+  .acp-carousel-track img {
+    height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .acp-cta-container {
+    padding: 1.5rem;
+  }
+
+  .acp-carousel-track {
+    gap: 60px;
+  }
+
+  .acp-carousel-track img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .acp-carousel-track {
+    gap: 40px;
+  }
+
+  .acp-carousel-track img {
+    height: 50px;
+  }
+
+  .acp-cta-button {
+    width: 100%;
+    padding: 10px;
+  }
+}
