@@ -1,11 +1,10 @@
 import React from "react";
 import "../assets/css/Six.css";
-import Volvo from '../assets/images/images/Volvo.png'
-import TVS from '../assets/images/images/TVS1.png'
-import CNC from '../assets/images/images/CMC.png'
-import FB from '../assets/images/images/FB1.png'
-import TG from '../assets/images/images/T__G1.png'
-
+import Volvo from '../assets/images/Volvo.png'
+import TVS from '../assets/images/TVS1.png'
+import CNC from '../assets/images/CMC.png'
+import FB from '../assets/images/FB1.png'
+import TG from '../assets/images/T__G1.png'
 
 const Six = () => {
   return (
