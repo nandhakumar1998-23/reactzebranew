@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/Six.css";
-import Volvo from '../assets/images/images/Volvo.png'
+import Volvo from '../assets/images/images/volvo.png'
 import TVS from '../assets/images/images/TVS1.png'
 import CNC from '../assets/images/images/CMC.png'
 import FB from '../assets/images/images/FB1.png'
