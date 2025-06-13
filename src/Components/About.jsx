@@ -5,7 +5,7 @@ import '../assets/css/Nav.css';
 import '../assets/css/About.css';
 import Logo from '../assets/images/zebra-elevation1.png';
 import { Link } from 'react-router-dom';
-import AboutImage from '../assets/images/About.jpg';
+import aboutImg from '../assets/images/about.jpg';
 import  Aboutsecc  from '../Components/Aboutsec'; 
 
 function About() {
@@ -79,7 +79,7 @@ function About() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={AboutImage}
+              src={aboutImg}
               alt="Slide 1"
             />
           </Carousel.Item>
